@@ -1,2 +1,13 @@
-hi
-this is krishna creating one crone job from github
+pls find the below process for creating crone job.
+step-1 :- launch an jenkins server
+step:-2 :- create a new job in jenkins in freestyle
+step:-3 :- create a webhook in github (seetings - webhook - payloadurl - json - create)
+step:-4 :- got to jenkins job and paste the github url in the repository
+step ;-s :- In the job in jenkins click on build periodically then we give (* * * * *)
+            here first star will work as a minutes
+            here second start will work as a hour
+            here third star will work as a week
+            here fourth star will work as a month
+            and last star will work as a year
+step:6 :- save and apply
+step:7 :- create one new file in github and see the changes!!!!!
